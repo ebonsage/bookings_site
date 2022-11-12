@@ -1,8 +1,9 @@
-module myapp
+module github.com/ebonsage/learngo
 
-go 1.18
+go 1.19
 
 require (
+	github.com/bmizerany/pat v0.0.0-20210406213842-e4b6760bdd6f // indirect
 	github.com/bwmarrin/discordgo v0.25.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	golang.org/x/crypto v0.0.0-20210421170649-83a5a9bb288b // indirect

@@ -1,13 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+{{template "base" .}}
 
-</body>
-</html>
+
+{{define "content"}}
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h1>This is the About page</h1>
+                    <p>This is some text</p>
+                    <p>I made changes here but it didn't auto update templates</p>
+                    <p>Second set of changes to about page</p>
+
+                    <p>This came from the template: {{index .StringMap "test"}}</p>
+
+                </div>
+            </div>
+        </div>
+{{end}}
