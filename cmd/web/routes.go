@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/ebonsage/learngo/pkg/config"
-	"github.com/ebonsage/learngo/pkg/handlers"
+	"github.com/ebonsage/bookings/pkg/config"
+	"github.com/ebonsage/bookings/pkg/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 	"net/http"

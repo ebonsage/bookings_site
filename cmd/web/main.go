@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/alexedwards/scs/v2"
-	"github.com/ebonsage/learngo/pkg/config"
-	"github.com/ebonsage/learngo/pkg/handlers"
-	"github.com/ebonsage/learngo/pkg/render"
+	"github.com/ebonsage/bookings/pkg/config"
+	"github.com/ebonsage/bookings/pkg/handlers"
+	"github.com/ebonsage/bookings/pkg/render"
 	"log"
 	"net/http"
 	"time"

@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/ebonsage/learngo/pkg/config"
-	"github.com/ebonsage/learngo/pkg/models"
-	"github.com/ebonsage/learngo/pkg/render"
+	"github.com/ebonsage/bookings/pkg/config"
+	"github.com/ebonsage/bookings/pkg/models"
+	"github.com/ebonsage/bookings/pkg/render"
 	"net/http"
 )
 

@@ -2,8 +2,8 @@ package render
 
 import (
 	"bytes"
-	"github.com/ebonsage/learngo/pkg/config"
-	"github.com/ebonsage/learngo/pkg/models"
+	"github.com/ebonsage/bookings/pkg/config"
+	"github.com/ebonsage/bookings/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
